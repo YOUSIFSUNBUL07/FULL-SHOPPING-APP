@@ -1,0 +1,94 @@
+/* @media (max-width: 1080px) {
+  .app{ 
+     display: grid;
+grid-area: 1 / span 6;
+  gap: 2px;  
+  width: 100%;
+}
+.product{
+     width: 400px; 
+    grid-template-columns: 1fr; 
+    grid-area: 1 / span 6;
+    font-size: 10px;
+
+}
+.product-img{
+  width: 100%;
+    box-sizing: border-box;
+
+} }*/
+
+
+@media (max-width: 1075px) {
+.app,a,p,link{
+  font-size: 18px !important;
+    /* grid-template-columns: 1fr !important; */
+    /* margin-right: 10px; */
+      /* gap: 10px; */
+      
+}
+a{
+
+  margin-left: -5px;
+}
+.protext{
+  font-size: 29px !important;
+}
+#alor{
+  font-size: 20px;
+}
+  #father {
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+  }
+
+  .product {
+    width: 90%;
+    max-width: 450px;
+  }
+
+  .product-img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  input {
+    /* width: 100%; */
+    width: 70px;
+    padding: 6px;
+  }
+  .signinput{
+    width: 200px !important;
+  }
+
+  .Finish {
+    font-size: x-large;
+    padding: 0.8em 1.5em;
+  }
+
+  .iprice {
+    font-size: x-large;
+  }
+}
+
+
+
+
+@media (max-width: 650px) {
+
+#buyPlace{
+  position: absolute;
+}
+.forgot{
+  width: 300px;
+}
+
+}
+@media (max-width: 400px){
+.enterp1, .enterh11{
+  font-size: 20px !important;
+}
+}

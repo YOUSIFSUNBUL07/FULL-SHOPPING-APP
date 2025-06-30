@@ -1,0 +1,13 @@
+ /* #paybody {
+    background-image: linear-gradient(rgb(117, 147, 236),rgb(179, 0, 255), rgba(0, 51, 255, 0.703),rgb(52, 103, 255));;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: xxx-large;
+  transform: scale(1.5); transform-origin: top left; width: 66.6667%; } */
+
+  .credit-card{
+    font-size: 25px !important;
+  }

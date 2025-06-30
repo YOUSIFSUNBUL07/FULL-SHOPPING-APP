@@ -1,0 +1,186 @@
+.signform{
+  display: flex;
+  flex-direction: column;
+
+}
+.signinput{
+  width: 800px;
+  height: 50px;
+color: aqua;
+  background: #d019f5;
+  margin-bottom: 5px;
+}
+
+      .enterh11 {
+             font-family: 'Orbitron', sans-serif;
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+            text-shadow: 0 0 15px rgba(128, 0, 255, 0.7);
+            letter-spacing: 3px;
+            font-weight: 700;
+            color: #ffffff;
+            text-transform: uppercase; 
+          
+        }
+        
+        .enterp1 {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin-bottom: 5rem;
+            color: #c3b1e1;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .forgot{
+
+
+  background-color: #434141;
+
+    transition: 0.32s;
+  width: 400px;
+  height: 333px;
+  border-radius: 12px;
+/* display: none; */
+scale: 0;
+align-items: center;
+justify-content: center;
+position: fixed;
+}
+.forgott{  transform: translateY(0);}
+.Dark .forgot{
+  background-color: rgb(255, 255, 255);
+}
+.Dark .close {
+
+color: #444;
+}
+.close {
+    font-size: 29px;
+/* color: #ffffff; */
+position: absolute;
+top: 17px;
+right: 22px;
+}
+.close:hover{
+  color: orange;
+    font-size: 30px;
+  transform: rotate(180deg);
+  transition: 0.3s;
+
+}
+.check-email{
+  color: #333;
+  font-size: 16px;
+  margin-top: 25px;
+  line-height: 25px;
+/* display: block;*/
+display: none;
+} 
+
+#forget{  
+  color: #00c6c6;
+  font-size:19px;;
+  font-weight: normal;
+  cursor: pointer;
+}
+#forget:hover{
+  font-size: 19.5px;
+    color: #01fefe;
+  transition: 0.1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.forgot{
+  background-color: #434141;
+
+    transition: 0.32s;
+  width: 400px;
+  height: 333px;
+  border-radius: 12px;
+/* display: none; */
+scale: 0;
+align-items: center;
+justify-content: center;
+position: fixed;
+}
+.forgott{  transform: translateY(0);}
+.Dark .forgot{
+  background-color: rgb(255, 255, 255);
+}
+.Dark .close{
+
+color: #444;
+}
+.close {
+    font-size: 29px;
+color: #ffffff;
+position: absolute;
+top: 17px;
+right: 22px;
+}
+.close:hover{
+  color: orange;
+    font-size: 30px;
+  transform: rotate(180deg);
+  transition: 0.3s;
+
+}
+.check-email{
+  color:#ffffff ;
+  /* color: #333; */
+  font-size: 16px;
+  margin-top: 25px;
+  line-height: 25px;
+/* display: block;*/
+display: none;
+} 
+
+#forget{  
+  color: #00c6c6;
+  font-size:19px;;
+  font-weight: normal;
+  cursor: pointer;
+}
+#forget:hover{
+  font-size: 19.5px;
+    color: #01fefe;
+  transition: 0.1s;
+}
+#signlink{
+  color: #01fefe;
+}
+
+#resetemailinbox{
+  width: 300px;
+}
