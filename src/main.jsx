@@ -30,7 +30,7 @@ createRoot(document.getElementById('root')).render(
 
   <React.StrictMode>
   
-    <BrowserRouter>
+    <BrowserRouter basename='/FULL-SHOPPING-APP'>
       <App />
     </BrowserRouter>
   
